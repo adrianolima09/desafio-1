@@ -1,0 +1,76 @@
+
+/* Importa a fonte montserrat da biblioteca do \Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Monteserrat', sans-serif;
+    font-family: 1rem;
+    
+}
+body {
+    background-color: cyan;
+}
+
+header {
+    height: 16px;
+    background-color: blue;
+}
+
+/* Adicionar imagem de fundo */
+
+
+
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+
+    position: 1rem;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: flex-end;
+    list-style-type: none;
+
+    /* boder solidi 2px greenyellow; */
+}
+
+a {
+    padding: 0.5rem;
+    width: 100%;
+
+}
+
+main {
+    padding: 2rem 4rem;
+}
+h1, h2, h3, h4, p {
+    margin: 1rem auto;
+}
+
+section {
+    min-height: 100vh;
+    border: solid 0.125rem yellow;
+}
+
+article {
+    background-color: brown;
+}
+
+article img {
+    width: 480px;
+    float: left;
+    margin-right: 1.5rem;
+    
+}
